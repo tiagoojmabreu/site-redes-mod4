@@ -1,0 +1,128 @@
+/**Reset-  um arquivo que limpa 
+os estilos padrões de todos os
+elementos HTML que já possuem uma 
+formatação padrão**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/**Body**/
+body {
+    font-size: 100%;
+    background-color: whitesmoke;
+   /*** background-image: linear-gradient(185deg, #abccff 0, #9db9f2 50%, #8fa6d6 100%);
+    /**background-image: linear-gradient(180deg, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%);**7
+    /**background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);**/
+}
+
+
+.imagem-tmrwireless {
+    width: 600px;
+    height: 430px;
+    padding: 20px;
+}
+
+
+.imagem-tmrwireless3 {
+    width: 400px;
+    height: 330px;
+    padding: 20px;
+}
+
+
+
+
+
+/**Configs main principal**/
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.titulo-principal {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+
+}
+
+.titulo1-principal {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 43px;
+    color: black;
+}
+
+.subtitulo-principal {
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 23px;
+    color: black;
+}
+
+
+
+
+
+/**Configs main secundario**/
+.secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+
+
+
+.titulo-secundario {
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+}
+.texto1-secundario {
+    font-family: 'Salara', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.texto1-secundario-final {
+    font-family: 'Salara', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+

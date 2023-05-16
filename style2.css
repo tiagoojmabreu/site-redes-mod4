@@ -1,0 +1,22 @@
+/**Reset-  um arquivo que limpa 
+os estilos padrões de todos os
+elementos HTML que já possuem uma 
+formatação padrão**/
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/**Body**/
+body {
+    font-size: 100%;
+    background-color: grey;
+   /*** background-image: linear-gradient(185deg, #abccff 0, #9db9f2 50%, #8fa6d6 100%);
+    /**background-image: linear-gradient(180deg, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%);**7
+    /**background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);**/
+}
+
+.menu {
+    padding-bottom: 100px;
+}
